@@ -1,0 +1,85 @@
+html {
+
+        height: 100vh;
+}
+
+
+body {
+
+height: 100%;
+margin: 0;
+padding: 0;
+
+}
+
+ul {
+
+    display: flex;
+   
+    padding: 6px;
+    text-align: center;
+    background-color: grey;
+    
+}
+
+li {
+    color: white;
+    margin-right: 50px;
+
+}
+
+
+
+.first {
+
+        height: 20%;
+        
+        background-color: rgb(214, 202, 202);
+
+
+}
+
+.second {
+
+    text-align: center;
+   background-color: white;
+   padding: 20px;
+   border: 20px;
+   margin: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+
+}
+
+.third {
+
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+article {
+
+        height: 300px;
+        width: 300px;
+       margin : 0 10px;
+        
+        background-color: rgb(214, 202, 202);
+       box-sizing: border-box;
+    
+   
+} 
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input, textarea {
+
+    margin-top: 20px;
+
+}
+
